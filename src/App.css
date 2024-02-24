@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dangrek:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+@font-face {
+  font-family: 'Doubledecker Demo';
+  src: url('font/DoubledeckerDemoRegular.otf') format('opentype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Doubledecker Demo';
+  line-height: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.containers {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width:1024px) {
+  .containers {
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width:768px) {
+  .containers {
+    width: 95%;
+    margin: 0 auto;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+.text-with-border {
+  -webkit-text-stroke: 3px #fff;
+  /* Ширина и цвет бордера */
+  /* text-stroke: 3px #fff; */
+}
+
+.text-with-borders {
+  -webkit-text-stroke: 1.5px #fff;
+  /* Ширина и цвет бордера */
+  /* text-stroke: 3px #fff; */
+}
+
+.text-with-borderes {
+  -webkit-text-stroke: 0.5px #fff;
+  /* Ширина и цвет бордера */
+  /* text-stroke: 3px #fff; */
+}
+
+.drop-shadow {
+  filter: drop-shadow(0px 6px 0px #fff) !important;
+}
+
+.drop-shadow:hover {
+  filter: drop-shadow(0px 3px 0px #fff) !important;
+}
+
+.backdrop-blur {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+}
+
+.filter-drop {
+  filter: drop-shadow(0px 0px 39px #D4B595);
+}
+
+.border-drop {
+  /* filter: drop-shadow(0px -1px 10px 0px #EA5294); */
+  box-shadow: 0px -1px 10.899999618530273px 0px #EA5294;
+}
+
+.linHeight {
+  line-height: 70px !important;
+}
+
+@media (max-width:768px) {
+  .linHeight {
+    line-height: 24px !important;
   }
 }
