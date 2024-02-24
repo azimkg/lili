@@ -28,10 +28,10 @@ const ConnectSuccessOld = () => {
 
     return (
         <div className="flex flex-col items-center">
-            <img src={image} className="w-[258px] h-[340px] mb-4" alt="Lili" />
+            <img src={image} className="w-[214px] h-[273px] mb-4" alt="Lili" />
             <div className="flex flex-col gap-3 items-center">
                 <p className="font-dang text-xl md:text-[26px] text-white text-center md:-tracking-[2px]">Nice! You have successfully connected <br /> your wallet.</p>
-                <Button onClick={getRemainingTime} className={'w-[350px] h-[60px] sm:w-[536px] sm:h-[94px] mt-2 mb-10'}>CONTINUE</Button>
+                <Button onClick={getRemainingTime} className={'w-[350px] h-[60px] sm:w-[536px] sm:h-[74px] mt-2'}>CONTINUE</Button>
             </div>
         </div>
     );

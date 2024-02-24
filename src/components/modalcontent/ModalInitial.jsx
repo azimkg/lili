@@ -15,11 +15,11 @@ const ModalInitial = () => {
 
     return (
         <div className="flex flex-col items-center">
-            <img src={image} className="w-[258px] h-[340px] mb-4" alt="Lili" />
-            <div className="flex flex-col gap-7 items-center">
-                <h2 className="text-white text-[50px] md:text-[86px]">let’s Start</h2>
-                <Button onClick={createOldSolana} className={'w-[350px] h-[60px] sm:w-[536px] sm:h-[94px]'}>i’m new HERE</Button>
-                <Button onClick={createNewSolana} className={'w-[350px] h-[60px] sm:w-[536px] sm:h-[94px] mb-10'}>I’m an old holder</Button>
+            <img src={image} className="w-[220px] h-[310px] mb-1" alt="Lili" />
+            <div className="flex flex-col gap-4 items-center">
+                <h2 className="text-white text-[42px] md:text-[60px]">let’s Start</h2>
+                <Button onClick={createOldSolana} className={'w-[350px] h-[60px] sm:w-[536px] sm:h-[74px]'}>i’m new HERE</Button>
+                <Button onClick={createNewSolana} className={'w-[350px] h-[60px] sm:w-[536px] sm:h-[74px]'}>I’m an old holder</Button>
             </div>
         </div>
     );

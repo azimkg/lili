@@ -12,13 +12,9 @@ const Header = () => {
         setIsOpen(!isOpen)
     }
     return (
-        <div className="bg-[#FFDBB7] md:bg-[#d0adc8] h-[100px] md:h-[136px] w-full relative overflow-hidden">
+        <div className="bg-[#FFDBB7] h-[100px] md:h-[136px] w-full relative overflow-hidden">
             <div className="relative containers hidden md:flex items-center h-full">
-                <div className="absolute top-0 left-0 w-[1920px] 2xl:w-[2560px]">
-                    <div className="h-[136px] bg-[#FFDBB7] w-full"> 
-                    </div>
-                </div>
-                <div className="relative z-50 mx-2 lg:mx-10 flex items-center justify-between w-full " >
+                <div className="relative z-50 flex items-center justify-between w-full " >
                     <div className="flex gap-5 lg:gap-10">
                         <img src={logo} className=""  alt="logotype" />
                         <h2 className=" text-[60px] lg:text-[81.7px] text-[#FE9ECE] text-with-border leading-[97px]">LILVERSE</h2>

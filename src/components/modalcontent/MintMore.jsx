@@ -23,11 +23,11 @@ const MintMore = () => {
     }
 
     return (
-        <div className="flex flex-col items-center">
-            <h2 style={{ lineHeight: '82px' }} className="text-white uppercase text-3xl sm:text-[70px] md:text-[100px] sm:-tracking-[4px] text-center">MINT MORE Lilverse NFTs</h2>
-            <p className="font-dang text-xl md:text-[31px] text-white text-center sm:-tracking-[1px] mt-4">You can mint 5 Lilverse NFTs max</p>
-            <div className="w-full flex flex-col items-start mb-10">
-                <p className="font-dang text-[26px] text-white text-center sm:-tracking-[1px] mt-8">Solana Wallet</p>
+        <div className="flex flex-col items-center mt-10 sm:mt-0">
+            <h2 className="text-white uppercase text-3xl md:text-[60px] sm:-tracking-[1px] text-center linHeight">MINT MORE Lilverse NFTs</h2>
+            <p className="font-dang text-xl md:text-[31px] text-white text-center sm:-tracking-[1px] mt-2">You can mint 5 Lilverse NFTs max</p>
+            <div className="w-full flex flex-col items-start mb-8">
+                <p className="font-dang text-xl md:text-[20px] text-white text-center sm:-tracking-[1px] mt-4">Solana Wallet</p>
                 <div className="bg-[#FD62A6] rounded-[45px] px-5 py-3 w-full">
                     <div className="flex items-center gap-3 p-2">
                         <img src={sonala} className="w-[41px] h-[35px] md:w-[71px] md:h-[55px]" alt="Solana" />
@@ -40,12 +40,12 @@ const MintMore = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex gap-4 sm:gap-10 mb-[60px]">
-                <Button onClick={decrementNumber} className={'w-[92px] h-[94px] font-dang'}>-</Button>
-                <Button className={'w-[150px] h-[94px] font-dang'}>{number}</Button>
-                <Button onClick={incrementNumber} className={'w-[92px] h-[94px] font-dang'}>+</Button>
+            <div className="flex gap-4 sm:gap-8 mb-10">
+                <Button onClick={decrementNumber} className={'w-[72px] h-[74px] font-dang'}>-</Button>
+                <Button className={'w-[150px] h-[74px] font-dang'}>{number}</Button>
+                <Button onClick={incrementNumber} className={'w-[72px] h-[74px] font-dang'}>+</Button>
             </div>
-            <Button className={'w-[350px] h-[60px] sm:w-[536px] sm:h-[94px] sm:-tracking-[2px] mb-10'} onClick={saveWallet}>Mint ? NFT for ? SOL</Button>
+            <Button className={'w-[350px] h-[60px] sm:w-[536px] sm:h-[74px] sm:-tracking-[2px]'} onClick={saveWallet}>Mint ? NFT for ? SOL</Button>
         </div>
     );
 };

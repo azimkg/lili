@@ -36,36 +36,36 @@ const CreateNewSolana = () => {
         dispatch(setModalStage('CONNECT_NEW_ETH'))
     }
     return (
-        <div className="flex flex-col items-center gap-9">
+        <div className="flex flex-col items-center gap-5">
             <img src={lili} className="w-[214px] h-[273px] mb-4" alt="Lili" />
             <div className="flex gap-1 sm:gap-6">
-                <Button className={'w-[80px] sm:w-[116px] h-[140px] sm:h-[160px]'}>
+                <Button className={'w-[90px] sm:w-[116px] h-[130px] sm:h-[140px]'}>
                     <div className="flex flex-col relative">
-                        <span className="text-4xl sm:text-[87px]">{timeLeft.days}</span>
-                        <span className="font-dang text-lg sm:text-xl normal absolute -bottom-8 sm:-bottom-12 left-4 sm:left-8 capitalize">Days</span>
+                        <span className="text-4xl sm:text-[67px]">{timeLeft.days}</span>
+                        <span className="font-dang text-lg sm:text-xl normal absolute -bottom-7 sm:-bottom-10 left-6 sm:left-8 capitalize">Days</span>
                     </div>
                 </Button>
-                <Button className={'w-[80px] sm:w-[116px] h-[140px] sm:h-[160px]'}>
+                <Button className={'w-[90px] sm:w-[116px] h-[130px] sm:h-[140px]'}>
                     <div className="flex flex-col relative">
-                        <span className="text-4xl sm:text-[87px]">{timeLeft.hours}</span>
-                        <span className="font-dang text-lg sm:text-xl normal absolute -bottom-8 sm:-bottom-12 left-3 sm:left-7 capitalize">Hours</span>
+                        <span className="text-4xl sm:text-[67px]">{timeLeft.hours}</span>
+                        <span className="font-dang text-lg sm:text-xl normal absolute -bottom-7 sm:-bottom-10 left-5 sm:left-7 capitalize">Hours</span>
                     </div>
                 </Button>
-                <Button className={'w-[80px] sm:w-[116px] h-[140px] sm:h-[160px]'}>
+                <Button className={'w-[90px] sm:w-[116px] h-[130px] sm:h-[140px]'}>
                     <div className="flex flex-col relative">
-                        <span className="text-4xl sm:text-[87px]">{timeLeft.minutes}</span>
-                        <span className="font-dang text-lg sm:text-xl normal absolute -bottom-8 sm:-bottom-12 left-1 sm:left-4 capitalize">Minutes</span>
+                        <span className="text-4xl sm:text-[67px]">{timeLeft.minutes}</span>
+                        <span className="font-dang text-lg sm:text-xl normal absolute -bottom-7 sm:-bottom-10 left-2 sm:left-5 capitalize">Minutes</span>
                     </div>
                 </Button>
-                <Button className={'w-[80px] sm:w-[116px] h-[140px] sm:h-[160px]'}>
+                <Button className={'w-[90px] sm:w-[116px] h-[130px] sm:h-[140px]'}>
                     <div className="flex flex-col relative">
-                        <span className="text-4xl sm:text-[87px]">{timeLeft.seconds}</span>
-                        <span className="font-dang text-lg sm:text-xl normal absolute -bottom-8 sm:-bottom-12 left-1 sm:left-4 capitalize">Seconds</span>
+                        <span className="text-4xl sm:text-[67px]">{timeLeft.seconds}</span>
+                        <span className="font-dang text-lg sm:text-xl normal absolute -bottom-7 sm:-bottom-10 left-2 sm:left-5 capitalize">Seconds</span>
                     </div>
                 </Button>
             </div>
-            <p className="text-[39px] text-white font-dang">March 3, 4 PM UTC</p>
-            <Button onClick={connectNewSolana} className={'w-[350px] h-[60px] sm:w-[536px] sm:h-[94px] mb-10'}>CONTINUE</Button>
+            <p className="text-3xl sm:text-[39px] text-white font-dang">March 3, 4 PM UTC</p>
+            <Button onClick={connectNewSolana} className={'w-[350px] h-[60px] sm:w-[536px] sm:h-[74px]'}>CONTINUE</Button>
         </div>
     );
 };

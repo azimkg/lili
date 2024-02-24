@@ -74,10 +74,10 @@ body {
 }
 
 .linHeight {
-  line-height: 70px !important;
+  line-height: 50px !important;
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
   .linHeight {
     line-height: 24px !important;
   }

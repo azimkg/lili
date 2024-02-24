@@ -12,10 +12,10 @@ const ClaimNewNft = () => {
     }
     return (
         <div className="flex flex-col items-center">
-            <h2 className="text-white uppercase text-4xl sm:text-[70px] md:text-[110px] md:-tracking-[4px] text-center linHeight">WELCOME</h2>
+            <h2 className="text-white uppercase text-4xl md:text-[60px] md:-tracking-[1px] text-center linHeight">WELCOME</h2>
             <p className="font-dang text-xl md:text-[31px] text-white text-center -tracking-[1px] mt-2">You hold 0 old NFTs</p>
             <div className="w-full flex flex-col items-start">
-                <p className="font-dang text-[26px] text-white text-center -tracking-[1px] mt-8">Ethereum Wallet</p>
+                <p className="font-dang text-[20px] text-white text-center -tracking-[1px] mt-4">Ethereum Wallet</p>
                 <div className="bg-[#FD62A6] rounded-[45px] px-5 py-3 w-full">
                     <div className="flex items-center gap-1">
                         <img src={eth} className="w-[86px] h-[94px]" alt="Etheurum" />
@@ -29,7 +29,7 @@ const ClaimNewNft = () => {
                 </div>
             </div>
             <div className="w-full flex flex-col items-start">
-                <p className="font-dang text-[26px] text-white text-center -tracking-[1px] mt-8">Solana Wallet</p>
+                <p className="font-dang text-[20px] text-white text-center -tracking-[1px] mt-4">Solana Wallet</p>
                 <div className="bg-[#FD62A6] rounded-[45px] px-5 py-3 w-full">
                     <div className="flex items-center gap-3 p-2">
                         <img src={sonala} className="w-[71px] h-[55px]" alt="Solana" />
@@ -42,7 +42,7 @@ const ClaimNewNft = () => {
                     </div>
                 </div>
             </div>
-            <Button onClick={saveWallet} className={'w-[350px] h-[60px] sm:w-[536px] sm:h-[94px] mt-10 mb-10'}>CLAIM NEW NFTs</Button>
+            <Button onClick={saveWallet} className={'w-[350px] h-[60px] sm:w-[536px] sm:h-[94px] mt-8'}>CLAIM NEW NFTs</Button>
         </div>
     );
 };
