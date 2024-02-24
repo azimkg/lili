@@ -19,7 +19,7 @@ const ClaimNewNft = () => {
                 <div className="bg-[#FD62A6] rounded-[45px] px-5 py-3 w-full">
                     <div className="flex items-center gap-1">
                         <img src={eth} className="w-[86px] h-[94px]" alt="Etheurum" />
-                        <input type="text" placeholder='0x0000000000000' className="bg-[#FD62A6] text-[31px] outline-none text-white/90" />
+                        <input type="text" placeholder='0x0000000000000' className="bg-[#FD62A6] text-[31px] outline-none text-white/90 w-full" />
                     </div>
                     <div className="h-[1.5px] bg-black/5 border-drop w-full"></div>
                     <div className="flex items-center justify-between p-3">
@@ -33,7 +33,7 @@ const ClaimNewNft = () => {
                 <div className="bg-[#FD62A6] rounded-[45px] px-5 py-3 w-full">
                     <div className="flex items-center gap-3 p-2">
                         <img src={sonala} className="w-[71px] h-[55px]" alt="Solana" />
-                        <input type="text" placeholder='0x0000000000000' className="bg-[#FD62A6] text-[31px] outline-none text-white/90" />
+                        <input type="text" placeholder='0x0000000000000' className="bg-[#FD62A6] text-[31px] outline-none text-white/90 w-full" />
                     </div>
                     <div className="h-[1.5px] bg-black/5 border-drop w-full"></div>
                     <div className="flex items-center justify-between  p-3">
