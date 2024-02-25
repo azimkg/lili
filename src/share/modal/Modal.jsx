@@ -12,7 +12,7 @@ const Modal = ({ isOpen, onClose, children }) => {
             >
             <img src={close} alt="Close icon" />
             </button>
-            <div className="p-2 md:p-6">{children}</div>
+            <div className="p-2 md:p-4">{children}</div>
         </div>
     </div>
   );

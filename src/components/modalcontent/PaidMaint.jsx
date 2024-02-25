@@ -27,7 +27,7 @@ const PaidMaint = () => {
             <h2 className="text-white uppercase text-4xl md:text-[60px] md:-tracking-[1px] text-center linHeight">Get more Lilverse NFTs</h2>
             <h3 className="text-white uppercase text-2xl sm:text-[36px] -tracking-[1px] text-center">before the public mint</h3>
             <p className="font-dang text-xl md:text-[31px] text-white text-center -tracking-[1px] mt-4">You can mint 5 Lilverse NFTs max</p>
-            <div className="w-full flex flex-col items-start mb-8">
+            <div className="w-full flex flex-col items-start mb-6">
                 <p className="font-dang text-[20px] text-white text-center -tracking-[1px] mt-4">Solana Wallet</p>
                 <div className="bg-[#FD62A6] rounded-[45px] px-5 py-3 w-full">
                     <div className="flex items-center gap-3 p-2">
@@ -41,12 +41,12 @@ const PaidMaint = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex gap-10 mb-[60px]">
+            <div className="flex gap-10 mb-6">
                 <Button onClick={decrementNumber} className={'w-[72px] h-[74px] font-dang'}>-</Button>
                 <Button className={'w-[150px] h-[74px] font-dang'}>{number}</Button>
                 <Button onClick={incrementNumber} className={'w-[72px] h-[74px] font-dang'}>+</Button>
             </div>
-            <Button className={'w-[350px] h-[60px] sm:w-[536px] sm:h-[74px] md:-tracking-[2px]'} onClick={saveWallet}>Mint ? NFT for ? SOL</Button>
+            <Button className={'w-[350px] h-[60px] sm:w-[536px] sm:h-[74px] md:-tracking-[0px]'} onClick={saveWallet}>Mint ? NFT for ? SOL</Button>
         </div>
     );
 };

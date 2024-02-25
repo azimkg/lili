@@ -19,13 +19,13 @@ const Section = () => {
     };
     return (
         <div className="bg-[#FEEEDE] h-[full] overflow-x-hidden pb-[94px]">
-            <div className="relative containers flex items-center flex-col gap-[71px]">
+            <div className="relative containers flex items-center flex-col gap-[61px]">
                 <div className="absolute top-0 left-0 w-[1920px] 2xl:w-[2560px]">
                     <div className="h-[136px] bg-[#FEEEDE]">
                     </div>
                 </div>
-                <img src={lili} className="relative z-50" alt="Lili png" />
-                <Button onClick={openModal} className={'w-[370px] sm:w-[590px] h-[80px] sm:h-[93px]'}>
+                <img src={lili} className="relative z-50 mt-[10px] mr-[30px]" alt="Lili png" />
+                <Button onClick={openModal} className={'w-[370px] sm:w-[590px] h-[80px] sm:h-[103px] md:text-[66px]'}>
                     Get my Character
                 </Button>
                 <Modal isOpen={isOpen} onClose={closeModal}>

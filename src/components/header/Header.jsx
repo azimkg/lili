@@ -12,14 +12,14 @@ const Header = () => {
         setIsOpen(!isOpen)
     }
     return (
-        <div className="bg-[#FFDBB7] h-[100px] md:h-[136px] w-full relative overflow-hidden">
+        <div className="bg_header h-[100px] md:h-[136px] w-full relative overflow-hidden">
             <div className="relative containers hidden md:flex items-center h-full">
                 <div className="relative z-50 flex items-center justify-between w-full " >
                     <div className="flex gap-5 lg:gap-10">
                         <img src={logo} className=""  alt="logotype" />
                         <h2 className=" text-[60px] lg:text-[81.7px] text-[#FE9ECE] text-with-border leading-[97px]">LILVERSE</h2>
                     </div>
-                    <p className="font-dang sm:leading-12 text-3xl lg:text-[39px] text-center text-[#FE9ECE] text-with-borders">
+                    <p className="font-dang font-medium -tracking-[2px] text-3xl lg:text-[39px] text-center text-[#FE9ECE] text-with-borders lines">
                         Animations, comics, <br />
                         memes and more!
                     </p>

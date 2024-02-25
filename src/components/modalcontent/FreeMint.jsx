@@ -14,7 +14,7 @@ const FreeMint = () => {
         <div className="flex flex-col items-center">
             <h2 className="text-white uppercase text-4xl md:text-[60px] md:-tracking-[1px] text-center linHeight">WELCOME</h2>
             <p className="font-dang text-xl md:text-[31px] text-white text-center -tracking-[1px] mt-2">You can mint 1 Lilverse NFT for free</p>
-            <div className="w-full flex flex-col items-start mb-10">
+            <div className="w-full flex flex-col items-start mb-6">
                 <p className="font-dang text-[20px] text-white text-center mt-4 md:mt-8">Solana Wallet</p>
                 <div className="bg-[#FD62A6] rounded-[45px] px-5 py-3 w-full">
                     <div className="flex items-center gap-3 p-2">
