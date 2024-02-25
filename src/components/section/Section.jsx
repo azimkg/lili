@@ -24,8 +24,8 @@ const Section = () => {
                     <div className="h-[136px] bg-[#FEEEDE]">
                     </div>
                 </div>
-                <img src={lili} className="relative z-50 mt-[10px] mr-[30px]" alt="Lili png" />
-                <Button onClick={openModal} className={'w-[370px] sm:w-[590px] h-[80px] sm:h-[103px] md:text-[66px]'}>
+                <img src={lili} className="relative w-[327px] h-[475px] md:w-[270px] md:h-[375px] xl:w-[327px] xl:h-[475px] 2xl:w-[527px] 2xl:h-[675px] z-50 mt-[10px] mr-[30px]" alt="Lili png" />
+                <Button onClick={openModal} className={'w-[370px] sm:w-[590px] h-[74px] md:h-[90px] lg:h-[103px] sm:text-[36px] md:text-[66px]'}>
                     Get my Character
                 </Button>
                 <Modal isOpen={isOpen} onClose={closeModal}>

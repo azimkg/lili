@@ -9,11 +9,11 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className="bg-[#FE9ECE] h-[136px] w-full relative">
+        <div className="bg-[#FE9ECE] h-[100px] lg:h-[116px] xl:h-[136px] w-full relative">
             <div className="containers flex items-center h-full">
                 <div className="flex items-center justify-between w-full">
                     <div className="flex items-center gap-3">
-                        <img src={logo} className="w-[42px] h-[48px] md:w-[90px] md:h-[102px]" alt="Footer logo" />
+                        <img src={logo} className="w-[42px] h-[48px] md:w-[75px] md:h-[87px] lg:w-[90px]  lg:h-[102px]" alt="Footer logo" />
                         <p className="text-xs sm:text-base lg:text-lg font-mons text-white">
                             © 2024. Lilverse. <br />
                             All rights reserved.
