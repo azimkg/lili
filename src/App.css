@@ -34,9 +34,39 @@ body {
 }
 
 .text-with-border {
-  -webkit-text-stroke: 3px #fff;
-  /* Ширина и цвет бордера */
-  /* text-stroke: 3px #fff; */
+  text-shadow:
+    -0 -3px 0 #FFFFFF,
+    0 -3px 0 #FFFFFF,
+    -0 3px 0 #FFFFFF,
+    0 3px 0 #FFFFFF,
+    -3px -0 0 #FFFFFF,
+    3px -0 0 #FFFFFF,
+    -3px 0 0 #FFFFFF,
+    3px 0 0 #FFFFFF,
+    -1px -3px 0 #FFFFFF,
+    1px -3px 0 #FFFFFF,
+    -1px 3px 0 #FFFFFF,
+    1px 3px 0 #FFFFFF,
+    -3px -1px 0 #FFFFFF,
+    3px -1px 0 #FFFFFF,
+    -3px 1px 0 #FFFFFF,
+    3px 1px 0 #FFFFFF,
+    -2px -3px 0 #FFFFFF,
+    2px -3px 0 #FFFFFF,
+    -2px 3px 0 #FFFFFF,
+    2px 3px 0 #FFFFFF,
+    -3px -2px 0 #FFFFFF,
+    3px -2px 0 #FFFFFF,
+    -3px 2px 0 #FFFFFF,
+    3px 2px 0 #FFFFFF,
+    -3px -3px 0 #FFFFFF,
+    3px -3px 0 #FFFFFF,
+    -3px 3px 0 #FFFFFF,
+    3px 3px 0 #FFFFFF,
+    -3px -3px 0 #FFFFFF,
+    3px -3px 0 #FFFFFF,
+    -3px 3px 0 #FFFFFF,
+    3px 3px 0 #FFFFFF;
 }
 
 .text-with-borderes {
@@ -77,12 +107,34 @@ body {
 
 .lines {
   font-family: 'Dangrek', sans-serif;
-  line-height: 70.92px;
   text-align: center;
   font-weight: 400;
-  color: rgba(254, 158, 206, 1);
-  -webkit-text-stroke: 1.8px rgba(255, 255, 255, 1);
-  text-shadow: 1.2px 0 rgba(255, 255, 255, 1), -1.2px 0 rgba(255, 255, 255, 1), 0 1.2px rgba(255, 255, 255, 1), 0 -1.2px rgba(255, 255, 255, 1);
+  color: #FE9ECE;
+  text-shadow:
+    -0 -2px 1px #FFFFFF,
+    0 -2px 1px #FFFFFF,
+    -0 2px 1px #FFFFFF,
+    0 2px 1px #FFFFFF,
+    -2px -0 1px #FFFFFF,
+    2px -0 1px #FFFFFF,
+    -2px 0 1px #FFFFFF,
+    2px 0 1px #FFFFFF,
+    -1px -2px 1px #FFFFFF,
+    1px -2px 1px #FFFFFF,
+    -1px 2px 1px #FFFFFF,
+    1px 2px 1px #FFFFFF,
+    -2px -1px 1px #FFFFFF,
+    2px -1px 1px #FFFFFF,
+    -2px 1px 1px #FFFFFF,
+    2px 1px 1px #FFFFFF,
+    -2px -2px 1px #FFFFFF,
+    2px -2px 1px #FFFFFF,
+    -2px 2px 1px #FFFFFF,
+    2px 2px 1px #FFFFFF,
+    -2px -2px 1px #FFFFFF,
+    2px -2px 1px #FFFFFF,
+    -2px 2px 1px #FFFFFF,
+    2px 2px 1px #FFFFFF;
 }
 
 @media (max-width:767px) {
@@ -90,13 +142,45 @@ body {
     line-height: 24px !important;
   }
 
+  .text-with-border {
+    line-height: normal;
+    text-shadow:
+      -0 -1px 1px #FFFFFF,
+      0 -1px 1px #FFFFFF,
+      -0 1px 1px #FFFFFF,
+      0 1px 1px #FFFFFF,
+      -1px -0 1px #FFFFFF,
+      1px -0 1px #FFFFFF,
+      -1px 0 1px #FFFFFF,
+      1px 0 1px #FFFFFF,
+      -1px -1px 1px #FFFFFF,
+      1px -1px 1px #FFFFFF,
+      -1px 1px 1px #FFFFFF,
+      1px 1px 1px #FFFFFF,
+      -1px -1px 1px #FFFFFF,
+      1px -1px 1px #FFFFFF,
+      -1px 1px 1px #FFFFFF,
+      1px 1px 1px #FFFFFF;
+  }
+
   .lines {
-    font-family: 'Dangrek', sans-serif;
-    line-height: 70.92px;
-    text-align: center;
-    font-weight: 400;
-    color: rgba(254, 158, 206, 1);
-    -webkit-text-stroke: 1px rgba(255, 255, 255, 1);
+    text-shadow:
+      -0 -1px 0 #FFFFFF,
+      0 -1px 0 #FFFFFF,
+      -0 1px 0 #FFFFFF,
+      0 1px 0 #FFFFFF,
+      -1px -0 0 #FFFFFF,
+      1px -0 0 #FFFFFF,
+      -1px 0 0 #FFFFFF,
+      1px 0 0 #FFFFFF,
+      -1px -1px 0 #FFFFFF,
+      1px -1px 0 #FFFFFF,
+      -1px 1px 0 #FFFFFF,
+      1px 1px 0 #FFFFFF,
+      -1px -1px 0 #FFFFFF,
+      1px -1px 0 #FFFFFF,
+      -1px 1px 0 #FFFFFF,
+      1px 1px 0 #FFFFFF;
   }
 }
 
@@ -118,4 +202,13 @@ body {
 :-ms-input-placeholder {
   /* Internet Explorer 10+ */
   color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.obraz {
+  width: 220px;
+  height: 340px;
+}
+
+.adaptiv_section {
+  /* height: 43vw; */
 }

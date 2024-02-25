@@ -6,7 +6,12 @@ module.exports = {
       'popp': ['Poppins', 'sans-serif'],
       'dang': ['Dangrek', 'sans-serif'],
       'mons': ['Montserrat', 'sans-serif'],
-    }
+    },
+    extend: {
+      screens: {
+        '3xl': '1920px',
+      },
+    },
   },
   plugins: [],
 }

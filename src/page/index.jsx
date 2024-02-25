@@ -5,11 +5,11 @@ import Section from '../components/section/Section';
 
 const index = () => {
     return (
-        <>
+        <div className="relative">
             <Header />
             <Section/>
             <Footer/>
-        </>
+        </div>
     );
 };
 

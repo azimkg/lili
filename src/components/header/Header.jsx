@@ -12,24 +12,26 @@ const Header = () => {
         setIsOpen(!isOpen)
     }
     return (
-        <div className="bg_header h-[100px] lg:h-[116px] xl:h-[136px] w-full relative overflow-hidden">
+        <div className="bg_header h-[80px] lg:h-[96px] 2xl:h-[106px] w-full overflow-hidden">
             <div className="relative containers hidden md:flex items-center h-full">
-                <div className="relative z-50 flex items-center justify-between w-full " >
-                    <div className="flex gap-5 lg:gap-10">
-                        <img src={logo} className="w-[80px] h-[92px] lg:w-[90px]  lg:h-[102px]"  alt="logotype" />
-                        <h2 className=" text-[60px] lg:text-[81.7px] text-[#FE9ECE] text-with-border leading-[97px]">LILVERSE</h2>
+                <div className="relative z-50 flex items-center justify-between w-full h-full" >
+                    <div className="flex gap-5 items-center">
+                        <img src={logo} className="md:w-[60px] md:h-[72px] lg:w-[70px]  lg:h-[82px]"  alt="logotype" />
+                        <h2 className=" text-[5vw] text-[#FE9ECE] text-with-border leading-[97px]">LILVERSE</h2>
                     </div>
-                    <h4 className="font-dang -tracking-[2px] text-4xl lg:text-[42px] text-center text-[#FE9ECE] text-with-borders lines">
-                        Animations, comics, <br />
-                        memes and more!
-                    </h4>
+                    <div className="relative w-[18vw] h-full">
+                        <h4 className="font-dang tracking-[0px] text-[2vw] text-center text-[#FE9ECE] text-with-borders lines absolute left-0 top-4 lg:top-3.5 2xl:top-2 3xl:top-1">
+                            Animations, comics, 
+                        </h4>
+                        <h4 className="font-dang tracking-[0px] text-[2vw] text-center text-[#FE9ECE] text-with-borders lines absolute left-4 bottom-4 lg:bottom-3.5 2xl:bottom-2 3xl:bottom-1">memes and more!</h4>
+                    </div>
                 </div>
             </div>
             <div className="relative containers flex md:hidden justify-between items-center h-full ">
                 <img src={logo} className={isOpen ? "hidden" : "w-[50px] h-[58px]"} alt="logotype" />
                 <div className={isOpen ? "hidden" : "flex flex-col gap-0 relative w-[190px]"}>
                     <h2 className=" text-[57px] lg:text-[81.7px] text-[#FE9ECE] text-with-border">LILVERSE</h2>
-                    <p className="absolute bottom-0 text-[11px] text-[#FE9ECE] text-with-borderes capitalize">
+                    <p className="absolute -bottom-1 text-[11px] tracking-tight text-[#FE9ECE] lines capitalize">
                         Animations, comics, memes and more!
                     </p>
                 </div>
