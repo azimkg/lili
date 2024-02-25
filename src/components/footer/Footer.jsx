@@ -19,7 +19,7 @@ const Footer = () => {
                             All rights reserved.
                         </p>
                     </div>
-                    <div className="hidden md:flex gap-2 lg:gap-8 mr-20">
+                    <div className="hidden md:flex gap-2 lg:gap-8 mr-32">
                         <Link to="#"><img src={x} className="w-[47px] h-[47px]" alt="X" /></Link>
                         <Link to="#"><img src={insta} className="w-[47px] h-[47px]" alt="Instagram" /></Link>
                         <Link to="#"><img src={tiktok} className="w-[47px] h-[47px]" alt="TikTok" /></Link>

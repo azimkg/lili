@@ -71,12 +71,6 @@ body {
   line-height: 50px !important;
 }
 
-@media (max-width:767px) {
-  .linHeight {
-    line-height: 24px !important;
-  }
-}
-
 .bg_header {
   background: #FEE4CA;
 }
@@ -85,9 +79,25 @@ body {
   font-family: 'Dangrek', sans-serif;
   line-height: 70.92px;
   text-align: center;
+  font-weight: 400;
   color: rgba(254, 158, 206, 1);
-  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 1);
-  text-shadow: 1.5px 0 rgba(255, 255, 255, 1), -1.5px 0 rgba(255, 255, 255, 1), 0 1.5px rgba(255, 255, 255, 1), 0 -1.5px rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.8px rgba(255, 255, 255, 1);
+  text-shadow: 1.2px 0 rgba(255, 255, 255, 1), -1.2px 0 rgba(255, 255, 255, 1), 0 1.2px rgba(255, 255, 255, 1), 0 -1.2px rgba(255, 255, 255, 1);
+}
+
+@media (max-width:767px) {
+  .linHeight {
+    line-height: 24px !important;
+  }
+
+  .lines {
+    font-family: 'Dangrek', sans-serif;
+    line-height: 70.92px;
+    text-align: center;
+    font-weight: 400;
+    color: rgba(254, 158, 206, 1);
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 1);
+  }
 }
 
 ::-webkit-input-placeholder {
