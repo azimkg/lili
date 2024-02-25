@@ -19,7 +19,7 @@ const Header = () => {
                         <img src={logo} className=""  alt="logotype" />
                         <h2 className=" text-[60px] lg:text-[81.7px] text-[#FE9ECE] text-with-border leading-[97px]">LILVERSE</h2>
                     </div>
-                    <h4 className="font-dang -tracking-[2px] text-3xl lg:text-[42px] text-center text-[#FE9ECE] text-with-borders lines">
+                    <h4 className="font-dang -tracking-[2px] text-4xl lg:text-[42px] text-center text-[#FE9ECE] text-with-borders lines">
                         Animations, comics, <br />
                         memes and more!
                     </h4>
