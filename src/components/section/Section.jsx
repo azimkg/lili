@@ -22,7 +22,7 @@ const Section = () => {
     return (
         <div className=" w-full h-[80vh] sm:h-[70vh]">
         <Header  />
-        <div className="w-full bg-[#FEEEDE] flex justify-center 4xl:items-center adaptiv_section overflow-hidden h-[81vh] 5xl:h-[90vh] pt-16 sm:pt-20 md:pt-14 lg:pt-10 4xl:pt-0 pb-[3vw] top-[80px]">
+        <div className="w-full bg-[#FEEEDE] flex justify-center 4xl:items-center adaptiv_section overflow-hidden h-[81vh] 5xl:h-[90vh] pt-16 sm:pt-20 md:pt-14 lg:pt-10 3xl:pt-0 pb-[3vw] top-[80px]">
             <div className="relative containers flex items-center flex-col gap-10">
                 <img src={lili} className="relative z-50 w-[33vh] 4xl:w-[50vh]  mr-[30px]" alt="Lili png" />
                 <Button onClick={openModal} className={'w-[370px] sm:w-[590px] h-[74px] md:h-[90px] xl:h-[83px] 2xl:h-[103px] sm:text-[36px] md:text-[66px]'}>
