@@ -24,7 +24,7 @@ const Section = () => {
         <Header  />
         <div className="w-full bg-[#FEEEDE] flex justify-center 4xl:items-center adaptiv_section overflow-hidden h-[80vh] 4xl:h-[80vh] 3xl:h-[81vh]  5xl:h-[90vh] pt-[10px] pb-[2vw] top-[80px]">
             <div className="relative containers flex items-center flex-col gap-10">
-                <img style={{maxWidth:"55%", maxHeight:'55%'}} src={lili} className="relative z-50  mr-[30px]" alt="Lili png" />
+                <img style={{maxWidth:"57%", maxHeight:'57%'}} src={lili} className="relative z-50  mr-[30px]" alt="Lili png" />
                 <Button onClick={openModal} className={'w-[370px] sm:w-[590px] h-[74px] md:h-[90px] xl:h-[83px] 2xl:h-[103px] sm:text-[36px] md:text-[66px]'}>
                     Get my Character
                 </Button>
