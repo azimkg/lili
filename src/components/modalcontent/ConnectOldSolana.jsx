@@ -18,7 +18,7 @@ const ConnectOldSolana = () => {
                 <p className="font-dang text-2xl md:text-[31px] text-white text-center md:-tracking-[2px] pt-4 md:mt-0 mb-6">You’ll need to connect your Solana wallet <br /> to claim the new NFTs</p>
                 <Button onClick={connectSolana} className={'w-[350px] h-[60px] sm:w-[536px] sm:h-[74px]'}>Connect</Button>
                 <p className="font-dang text-xl md:text-[26px] text-white text-center md:-tracking-[2px] mt-6">By connecting a wallet, you agree to our</p>
-                <Link to={''} className="font-dang text-xl md:text-[26px] text-white text-center md:-tracking-[1px] underline">Terms of Service.</Link>
+                <Link to={'/terns'} className="font-dang text-xl md:text-[26px] text-white text-center md:-tracking-[1px] underline">Terms of Service.</Link>
             </div>
         </div>
     );

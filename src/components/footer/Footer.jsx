@@ -7,9 +7,9 @@ import tiktok from "../../images/tiktok.png"
 import { Link } from 'react-router-dom';
 
 
-const Footer = () => {
+const Footer = ({ className }) => {
     return (
-        <div className="bg-[#FE9ECE] h-[80px] lg:h-[96px] 2xl:h-[106px] w-full relative z-10">
+        <div className={`bg-[#FE9ECE] h-[80px] lg:h-[96px] 2xl:h-[106px] w-full ${className}`}>
             <div className="containers flex items-center h-full">
                 <div className="flex items-center justify-between w-full">
                     <div className="flex items-center gap-3">
@@ -25,7 +25,7 @@ const Footer = () => {
                         <Link to="#"><img src={tiktok} className="w-[37px] h-[37px] lg:w-[47px] lg:h-[47px]" alt="TikTok" /></Link>
                         <Link to="#"><img src={youtube} className="w-[37px] h-[37px] lg:w-[47px] lg:h-[47px]" alt="YouTube" /></Link>
                     </div>
-                    <p className="text-xs sm:text-base lg:text-lg font-mons text-white">Privacy Policy</p>
+                    <Link to='/policy' className="text-xs sm:text-base lg:text-lg font-mons text-white">Privacy Policy</Link>
                 </div>
             </div>
         </div>

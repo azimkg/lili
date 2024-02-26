@@ -107,7 +107,6 @@ body {
 
 .lines {
   font-family: 'Dangrek', sans-serif;
-  text-align: center;
   font-weight: 400;
   color: #FE9ECE;
   text-shadow:
@@ -202,13 +201,4 @@ body {
 :-ms-input-placeholder {
   /* Internet Explorer 10+ */
   color: rgba(255, 255, 255, 0.7) !important;
-}
-
-.obraz {
-  width: 220px;
-  height: 340px;
-}
-
-.adaptiv_section {
-  /* height: 43vw; */
 }

@@ -18,7 +18,7 @@ const ConnectNewSolana = () => {
                 <p className="font-dang text-xl md:text-[31px] text-white text-center -tracking-[2px] mb-4">You’ll need to connect your Ethereum wallet <br /> to verify your old NFTs</p>
                 <Button onClick={connectSolana} className={'w-[350px] h-[60px] sm:w-[536px] sm:h-[74px]'}>Connect</Button>
                 <p className="font-dang text-xl md:text-[26px] text-white text-center -tracking-[2px] mt-6">By connecting a wallet, you agree to our</p>
-                <Link to={''} className="font-dang text-xl md:text-[26px] text-white text-center -tracking-[1px] underline">Terms of Service.</Link>
+                <Link to={'/terns'} className="font-dang text-xl md:text-[26px] text-white text-center -tracking-[1px] underline">Terms of Service.</Link>
             </div>
         </div>
     );
