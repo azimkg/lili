@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className="bg-[#FE9ECE] h-[80px] lg:h-[96px] 2xl:h-[106px] w-full">
+        <div className="bg-[#FE9ECE] h-[80px] lg:h-[96px] 2xl:h-[106px] w-full relative z-10">
             <div className="containers flex items-center h-full">
                 <div className="flex items-center justify-between w-full">
                     <div className="flex items-center gap-3">

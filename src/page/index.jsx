@@ -5,7 +5,7 @@ import Section from '../components/section/Section';
 
 const index = () => {
     return (
-        <div className="relative">
+        <div className="relative w-full h-full">
             <Header />
             <Section/>
             <Footer/>
