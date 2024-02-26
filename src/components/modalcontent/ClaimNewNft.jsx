@@ -19,12 +19,12 @@ const ClaimNewNft = () => {
                 <div className="bg-[#FD62A6] rounded-[45px] px-5 py-3 w-full">
                     <div className="flex items-center gap-1">
                         <img src={eth} className="w-[86px] h-[94px]" alt="Etheurum" />
-                        <input type="text" placeholder='' className="bg-[#FD62A6] text-[31px] outline-none text-white/90 w-full" />
+                        <input type="text" disabled placeholder='' className="bg-[#FD62A6] text-[31px] outline-none text-white/90 w-full" />
                     </div>
                     <div className="h-[1.5px] bg-black/5 border-drop w-full"></div>
                     <div className="flex items-center justify-between p-3">
                         <span className="font-dang text-xl md:text-[31px] text-white/65 text-center -tracking-[1px]">Balance</span>
-                        <span className="font-dang text-2xl md:text-[31px] text-white text-center -tracking-[1px]">0,0 ETH</span>
+                        <span className="font-dang text-2xl md:text-[31px] text-white text-center -tracking-[1px]">0,0 <span className="font-dang text-2xl md:text-[31px] text-white/65 text-center -tracking-[1px]">ETH</span></span>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@ const ClaimNewNft = () => {
                     <div className="h-[1.5px] bg-black/5 border-drop w-full"></div>
                     <div className="flex items-center justify-between  p-3">
                         <span className="font-dang text-xl md:text-[31px] text-white/65 text-center -tracking-[1px]">Balance</span>
-                        <span className="font-dang text-2xl md:text-[31px] text-white text-center -tracking-[1px]">0,0 ETH</span>
+                        <span className="font-dang text-2xl md:text-[31px] text-white text-center -tracking-[1px]">0,0 <span className="font-dang text-2xl md:text-[31px] text-white/65 text-center -tracking-[1px]">SOL</span></span>
                     </div>
                 </div>
             </div>

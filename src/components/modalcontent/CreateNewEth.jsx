@@ -42,25 +42,25 @@ const CreateNewSolana = () => {
                 <Button className={'w-[90px] sm:w-[116px] h-[130px] sm:h-[140px]'}>
                     <div className="flex flex-col relative">
                         <span className="text-4xl font-dang sm:text-[67px]">{timeLeft.days}</span>
-                        <span className="font-dang text-lg sm:text-xl normal absolute -bottom-7 sm:-bottom-10 left-6 sm:left-8 capitalize">Days</span>
+                        <span className="font-dang text-lg sm:text-xl normal absolute -bottom-7 sm:-bottom-10 left-0 sm:left-4 capitalize">Days</span>
                     </div>
                 </Button>
                 <Button className={'w-[90px] sm:w-[116px] h-[130px] sm:h-[140px]'}>
                     <div className="flex flex-col relative">
                         <span className="text-4xl font-dang sm:text-[67px]">{timeLeft.hours}</span>
-                        <span className="font-dang text-lg sm:text-xl normal absolute -bottom-7 sm:-bottom-10 left-5 sm:left-7 capitalize">Hours</span>
+                        <span className="font-dang text-lg sm:text-xl normal absolute -bottom-7 sm:-bottom-10 -left-1 sm:left-3 capitalize">Hours</span>
                     </div>
                 </Button>
                 <Button className={'w-[90px] sm:w-[116px] h-[130px] sm:h-[140px]'}>
                     <div className="flex flex-col relative">
                         <span className="text-4xl font-dang sm:text-[67px]">{timeLeft.minutes}</span>
-                        <span className="font-dang text-lg sm:text-xl normal absolute -bottom-7 sm:-bottom-10 left-2 sm:left-5 capitalize">Minutes</span>
+                        <span className="font-dang text-lg sm:text-xl normal absolute -bottom-7 sm:-bottom-10 -left-4 sm:left-0 capitalize">Minutes</span>
                     </div>
                 </Button>
                 <Button className={'w-[90px] sm:w-[116px] h-[130px] sm:h-[140px]'}>
                     <div className="flex flex-col relative">
                         <span className="text-4xl font-dang sm:text-[67px]">{timeLeft.seconds}</span>
-                        <span className="font-dang text-lg sm:text-xl normal absolute -bottom-7 sm:-bottom-10 left-2 sm:left-5 capitalize">Seconds</span>
+                        <span className="font-dang text-lg sm:text-xl normal absolute -bottom-7 sm:-bottom-10 -left-3 sm:left-0 capitalize">Seconds</span>
                     </div>
                 </Button>
             </div>

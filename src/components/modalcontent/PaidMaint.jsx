@@ -37,7 +37,7 @@ const PaidMaint = () => {
                     <div className="h-[1.5px] bg-black/5 border-drop w-full"></div>
                     <div className="flex items-center justify-between  p-3">
                         <span className="font-dang text-xl md:text-[31px] text-white/65 text-center md:-tracking-[1px]">Balance</span>
-                        <span className="font-dang text-2xl md:text-[31px] text-white text-center md:-tracking-[1px]">0,0 ETH</span>
+                        <span className="font-dang text-2xl md:text-[31px] text-white text-center md:-tracking-[1px]">0,0 <span className="font-dang text-xl md:text-[31px] text-white/65 text-center -tracking-[1px]">SOL</span></span>
                     </div>
                 </div>
             </div>
@@ -46,7 +46,7 @@ const PaidMaint = () => {
                 <Button className={'w-[150px] h-[74px] font-dang'}>{number}</Button>
                 <Button onClick={incrementNumber} className={'w-[72px] h-[74px] font-dang'}>+</Button>
             </div>
-            <Button className={'w-[350px] h-[60px] sm:w-[536px] sm:h-[74px] md:-tracking-[0px]'} onClick={saveWallet}>Mint ? NFT for ? SOL</Button>
+            <Button className={'w-[350px] h-[60px] sm:w-[536px] sm:h-[74px] md:-tracking-[0px]'} onClick={saveWallet}>Mint {number} NFT for {number} SOL</Button>
         </div>
     );
 };
